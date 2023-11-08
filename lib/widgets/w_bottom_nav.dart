@@ -14,7 +14,6 @@ class WidgetBottomNav extends StatelessWidget {
   Widget build(BuildContext context) {
     return ConvexAppBar(
       initialActiveIndex: currentSelected,
-      backgroundColor: UtilsColor.red,
       style: TabStyle.flip,
       items: const [
         TabItem(icon: Icons.home, title: 'Home'),

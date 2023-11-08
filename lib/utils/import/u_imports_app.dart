@@ -34,3 +34,4 @@ part '../../constant/app_name.dart';
 
 ///utils
 part '../theme/u_color.dart';
+part '../theme/u_setting_theme.dart';

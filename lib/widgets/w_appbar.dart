@@ -6,13 +6,7 @@ class WidgetAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      elevation: 0,
-      backgroundColor: UtilsColor.red,
-      iconTheme: const IconThemeData(size: 35, color: Colors.white),
-      title: Text(
-        'BBC',
-        style: GoogleFonts.blackOpsOne(fontSize: 35),
-      ),
+      title: const Text('BBC'),
       actions: const [
         Padding(
           padding: EdgeInsets.all(10.0),
